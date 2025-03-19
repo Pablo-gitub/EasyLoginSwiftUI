@@ -13,10 +13,10 @@ class RegistrationViewModel: ObservableObject {
     @Published var copyPassword: String = ""
     
     @Published var errorMessage: String?    = nil
-    @Published var isAuthenticated: Bool       = false
+    @Published var isRegistrated: Bool       = false
     
-    func login() {
-        isAuthenticated = false
+    func registration() {
+        isRegistrated = false
         errorMessage = nil
         
         if username.isEmpty && !password.isEmpty{
@@ -40,7 +40,7 @@ class RegistrationViewModel: ObservableObject {
         }
         
         if username == "Prova" && password == "prova" && copyPassword == "prova" {
-            isAuthenticated = true
+            isRegistrated = true
         } else {
             errorMessage = "Only demo user Prova / prova is allowed"
         }
