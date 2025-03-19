@@ -11,7 +11,10 @@ import SwiftUI
 struct EasyLoginApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationStack(){
+                LoginView()
+            }
+            .navigationViewStyle(StackNavigationViewStyle())
         }
     }
 }
