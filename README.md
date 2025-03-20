@@ -27,8 +27,8 @@ EasyLogin is an iOS application built with SwiftUI that provides a simple login 
 
 Screenshots for the Login and Registration screens are available below.
 
-![Login Screen](images/login.png)
-![Registration Screen](images/registration.png)
+<img src="images/login.png" alt="Login Screen" width="150" />
+<img src="images/registration.png" alt="Registration Screen" width="150" />
 
 ## Requirements
 
